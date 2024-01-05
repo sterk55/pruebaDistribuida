@@ -6,6 +6,10 @@ import jakarta.persistence.*;
 @Table(name="libro")
 public class Libros {
 
+    public Libros() {
+
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Utilizar auto-incremento
     private Integer id;

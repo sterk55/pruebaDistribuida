@@ -19,6 +19,8 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-databind:2.0.1")
     implementation("com.sparkjava:spark-core:2.9.4")
     implementation("com.google.code.gson:gson:2.10.1")
+    testImplementation("org.hsqldb:hsqldb:2.0.0")
+
 }
 
 tasks.test {
